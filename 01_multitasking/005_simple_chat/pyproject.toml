@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "http-weather"
+version = "0.1.0"
+description = ""
+authors = ["Gregory Smith <greg@agilefrontiers.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rando-wisdom = "^1.0.4"
+httpx = "^0.28.1"
+python-dotenv = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
